@@ -2,7 +2,7 @@
 
 std::string Move::getName()
 {
-    return this->name;
+    return name;
 }
 
 Move::Move(std::string Name)

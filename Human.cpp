@@ -15,7 +15,6 @@ Human::Human(std::string name) {
 
 Move* Human::makeMove() {
     std::string input = "";
-    std::cout << "Enter Move:" << std::endl;
     std::cin >> input;
     return (MoveFactory::CreateMove(input));
 }
