@@ -3,6 +3,7 @@
 #include "MoveFactory.h"
 #include "Rock.h"
 #include <string>
+#include <iostream>
 
 Human::Human(){
     name = "Human";
