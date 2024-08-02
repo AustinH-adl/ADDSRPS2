@@ -3,7 +3,7 @@
 #include "Computer.h"
 #include <iostream>
 
-int main() {
+int notmain() {
     Referee r;
     std::string name1;
     std::string name2;
