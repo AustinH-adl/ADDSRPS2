@@ -8,6 +8,16 @@ Move* MoveFactory::CreateMove(std::string moveName) {
         return (new Paper());
     } else if (moveName == "Rock") {
         return (new Rock());
-    }   
+    } else if (moveName == "Monkey") {
+        return (new Monkey());
+    } else if (moveName == "Pirate") {
+        return (new Pirate());
+    } else if (moveName == "Zombie") {
+        return (new Zombie());
+    } else if (moveName == "Ninja") {
+        return (new Ninja());
+    } else if (moveName == "Robot") {
+        return (new Robot());
+    }
     return nullptr;
 }
