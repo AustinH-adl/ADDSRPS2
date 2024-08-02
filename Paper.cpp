@@ -7,5 +7,5 @@ Paper::Paper()
 
 std::unordered_set<std::string> Paper::wins()
 {
-    return {"Scissors"};
+    return {"Rock"};
 }

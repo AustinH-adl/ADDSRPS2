@@ -7,5 +7,5 @@ Scissors::Scissors()
 
 std::unordered_set<std::string> Scissors::wins()
 {
-    return {"Rock"};   
+    return {"Paper"};   
 }

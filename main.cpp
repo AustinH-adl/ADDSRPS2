@@ -12,6 +12,8 @@ int notmain() {
 
     if (winner != NULL) {
         std::cout << winner->getName();
+    } else {
+        std::cout << "Tie";
     }
-    
+    return 0;
 }

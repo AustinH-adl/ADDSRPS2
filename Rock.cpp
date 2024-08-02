@@ -8,5 +8,5 @@ Rock::Rock() {
 
 std::unordered_set<std::string> Rock::wins()
 {
-    return {"Paper"};
+    return {"Scissors"};
 }
