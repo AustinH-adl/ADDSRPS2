@@ -3,6 +3,6 @@
 
 class Computer : public Player {
     public: 
-        Move* makeMove() override;
+        virtual Move* makeMove() override;
         Computer();
 };

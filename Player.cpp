@@ -2,5 +2,5 @@
 #include <string>
 
 std::string Player::getName() {
-    return name;
+    return this->name;
 }

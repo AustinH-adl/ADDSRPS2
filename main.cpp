@@ -3,12 +3,17 @@
 #include "Computer.h"
 #include <iostream>
 
-int notmain() {
+int main() {
     Referee r;
-    Computer c;
-    Human h;
+    std::string name1;
+    std::string name2;
+    std::cin >> name1;
+    std::cin >> name2;
 
-    Player* winner = r.refGame(&c, &h);
+    Human one(name1);
+    Human two(name2);
+
+    Player* winner = r.refGame(&one, &two);
 
     if (winner != NULL) {
         std::cout << winner->getName();

@@ -19,3 +19,7 @@ Player *Referee::refGame(Player *player1, Player *player2)
         return nullptr;
     }
 }
+
+Referee::Referee() {
+    
+}
