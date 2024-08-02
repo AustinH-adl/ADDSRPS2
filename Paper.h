@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Move.h"
-#include <vector> 
+#include <unordered_set>
 
 class Paper : public Move {
     public:

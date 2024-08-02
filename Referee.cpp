@@ -1,7 +1,6 @@
 #include "Referee.h"
 #include <unordered_set>
 #include <string>
-#include <iostream>
 
 Player *Referee::refGame(Player *player1, Player *player2)
 {
